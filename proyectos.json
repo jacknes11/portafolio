@@ -1,0 +1,13 @@
+[
+  {
+    "titulo": "Sitio Personal",
+    "descripcion": "Un portafolio moderno y responsivo.",
+    "tecnologias": "HTML, CSS, JavaScript"
+  },
+  {
+    "titulo": "App de Clima",
+    "descripcion": "Consulta del clima usando una API externa.",
+    "tecnologias": "Node.js, Express, API REST"
+  }
+]
+
