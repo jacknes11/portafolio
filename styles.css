@@ -18,6 +18,46 @@ html, body {
   height: 100%;
 }
 
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 220px; /* ajuste por la sidebar */
+  right: 0;
+  height: 60px;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.nombre-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+.contenido {
+  margin-top: 60px; /* deja espacio para el header */
+}
+
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--negro);
